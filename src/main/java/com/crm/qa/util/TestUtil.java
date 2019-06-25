@@ -1,6 +1,8 @@
 package com.crm.qa.util;
 
 import java.io.File;
+
+import org.apache.commons.io.FileUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -13,11 +15,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -33,8 +31,7 @@ public class TestUtil {
 	public static long PAGE_LOAD_TIMEOUT=30;
 	public static long IMPLICIT_WAIT=10;
 	public static String TESTDATA_SHEET_PATH="/Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/crm/qa/testdata/";
-	static Workbook book;
-	static Sheet sheet;
+	
 	static FileInputStream fin=null;
 	
 	public static Map getDataFromMap(String jsonFile) throws FileNotFoundException, IOException, ParseException{
