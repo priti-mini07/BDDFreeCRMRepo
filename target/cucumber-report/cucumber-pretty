@@ -1,0 +1,57 @@
+Feature: To check the login
+
+  Scenario Outline: To check login functionality              [90m# /Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:3[0m
+    [36mGiven [0m[36mThe user in on login page[0m
+    [36mWhen [0m[36mthe user enters username and password[0m
+    [36mAnd [0m[36muser is entering data for <user>[0m
+    [36mThen [0m[36mthe user is successfully logged into the application[0m
+
+    Examples: 
+
+  Scenario Outline: To check login functionality              [90m# /Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:13[0m
+    [32mGiven [0m[32mThe user in on login page[0m                           [90m# LoginStepDefinition.the_user_in_on_login_page()[0m
+    [32mWhen [0m[32mthe user enters username and password[0m                [90m# LoginStepDefinition.the_user_enters_Priti_and_Password(DataTable)[0m
+    [32mAnd [0m[32muser is entering data for [0m[32m[1muser1[0m                       [90m# LoginStepDefinition.verifyNewContactTest(String)[0m
+    [31mThen [0m[31mthe user is successfully logged into the application[0m [90m# LoginStepDefinition.the_user_is_successfully_logged_into_the_application()[0m
+      [31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'krishnas-Air', ip: 'fe80:0:0:0:1d:3f1c:4dda:7a5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_211'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+      	at com.crm.qa.pages.HomePage.verifyHomePage(HomePage.java:37)
+      	at com.qa.crm.stepdefinition.LoginStepDefinition.the_user_is_successfully_logged_into_the_application(LoginStepDefinition.java:53)
+      	at ✽.Then the user is successfully logged into the application(/Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:9)
+      [0m
+
+  Scenario Outline: To check login functionality              [90m# /Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:14[0m
+    [32mGiven [0m[32mThe user in on login page[0m                           [90m# LoginStepDefinition.the_user_in_on_login_page()[0m
+    [32mWhen [0m[32mthe user enters username and password[0m                [90m# LoginStepDefinition.the_user_enters_Priti_and_Password(DataTable)[0m
+    [32mAnd [0m[32muser is entering data for [0m[32m[1muser2[0m                       [90m# LoginStepDefinition.verifyNewContactTest(String)[0m
+    [31mThen [0m[31mthe user is successfully logged into the application[0m [90m# LoginStepDefinition.the_user_is_successfully_logged_into_the_application()[0m
+      [31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'krishnas-Air', ip: 'fe80:0:0:0:1d:3f1c:4dda:7a5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_211'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+      	at com.crm.qa.pages.HomePage.verifyHomePage(HomePage.java:37)
+      	at com.qa.crm.stepdefinition.LoginStepDefinition.the_user_is_successfully_logged_into_the_application(LoginStepDefinition.java:53)
+      	at ✽.Then the user is successfully logged into the application(/Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:9)
+      [0m

@@ -1,0 +1,19 @@
+{
+"user1":
+{
+  "firstName": "Priti",
+  "lastName": "Dwibedi",
+  "Company" : "Planit",
+   "Social" : "Facebook",
+   "Description" : "Priti123"
+ },
+ "user2":
+{
+  "firstName": "Krishna",
+  "lastName": "Pathak",
+  "Company" : "BBliss",
+   "Social" : "Facebook",
+   "Description" : "Krishna123"
+ }
+ }
+ 
