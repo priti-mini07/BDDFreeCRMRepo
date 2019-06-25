@@ -23,12 +23,12 @@
 		 public final void setDriver(String browser)  {
 			 DesiredCapabilities caps=null;
 			 
-			 switch(browser){
-				 case "chrome" :
-					 caps= DesiredCapabilities.chrome();
+//			 switch(browser){
+//				 case "chrome" :
+//					 caps= DesiredCapabilities.chrome();
 					 System.setProperty("webdriver.chrome.driver", "/Users/krishna/Downloads/chromedriver");
 					 webDriver.set(new ChromeDriver());
-			 }
+//			 }
 		 }
 			 
 			 public WebDriver getDriver() {
