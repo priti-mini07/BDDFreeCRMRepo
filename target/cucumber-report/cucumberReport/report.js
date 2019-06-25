@@ -123,14 +123,14 @@ formatter.match({
   "location": "LoginStepDefinition.the_user_in_on_login_page()"
 });
 formatter.result({
-  "duration": 11902002991,
+  "duration": 9785117847,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.the_user_enters_Priti_and_Password(DataTable)"
 });
 formatter.result({
-  "duration": 493632998,
+  "duration": 516153778,
   "status": "passed"
 });
 formatter.match({
@@ -143,14 +143,14 @@ formatter.match({
   "location": "LoginStepDefinition.verifyNewContactTest(String)"
 });
 formatter.result({
-  "duration": 5619232570,
+  "duration": 5818581932,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.the_user_is_successfully_logged_into_the_application()"
 });
 formatter.result({
-  "duration": 37367200,
+  "duration": 36393525,
   "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027krishnas-Air\u0027, ip: \u0027fe80:0:0:0:1d:3f1c:4dda:7a5a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.3\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\n\tat com.crm.qa.pages.HomePage.verifyHomePage(HomePage.java:37)\n\tat com.qa.crm.stepdefinition.LoginStepDefinition.the_user_is_successfully_logged_into_the_application(LoginStepDefinition.java:53)\n\tat ✽.Then the user is successfully logged into the application(/Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:9)\n",
   "status": "failed"
 });
@@ -198,14 +198,14 @@ formatter.match({
   "location": "LoginStepDefinition.the_user_in_on_login_page()"
 });
 formatter.result({
-  "duration": 7933812672,
+  "duration": 7564578756,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.the_user_enters_Priti_and_Password(DataTable)"
 });
 formatter.result({
-  "duration": 446704602,
+  "duration": 477471897,
   "status": "passed"
 });
 formatter.match({
@@ -218,14 +218,14 @@ formatter.match({
   "location": "LoginStepDefinition.verifyNewContactTest(String)"
 });
 formatter.result({
-  "duration": 5936165987,
+  "duration": 5407831811,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.the_user_is_successfully_logged_into_the_application()"
 });
 formatter.result({
-  "duration": 446447,
+  "duration": 721511,
   "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027krishnas-Air\u0027, ip: \u0027fe80:0:0:0:1d:3f1c:4dda:7a5a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.3\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\n\tat com.crm.qa.pages.HomePage.verifyHomePage(HomePage.java:37)\n\tat com.qa.crm.stepdefinition.LoginStepDefinition.the_user_is_successfully_logged_into_the_application(LoginStepDefinition.java:53)\n\tat ✽.Then the user is successfully logged into the application(/Users/krishna/eclipse-workspace/BDDFreeCRM/src/main/java/com/qa/crm/feature/login.feature:9)\n",
   "status": "failed"
 });

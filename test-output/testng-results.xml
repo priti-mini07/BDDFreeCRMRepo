@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Free CRM Application Test Suite" duration-ms="32842" started-at="2019-06-25T11:51:12Z" finished-at="2019-06-25T11:51:45Z">
+  <suite name="Free CRM Application Test Suite" duration-ms="30476" started-at="2019-06-25T11:59:03Z" finished-at="2019-06-25T11:59:34Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="BDDtestngTest" duration-ms="32842" started-at="2019-06-25T11:51:12Z" finished-at="2019-06-25T11:51:45Z">
+    <test name="BDDtestngTest" duration-ms="30476" started-at="2019-06-25T11:59:03Z" finished-at="2019-06-25T11:59:34Z">
       <class name="com.qa.crm.runner.LoginTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="setUpClass" is-config="true" duration-ms="249" started-at="2019-06-25T11:51:12Z" finished-at="2019-06-25T11:51:12Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="setUpClass" is-config="true" duration-ms="488" started-at="2019-06-25T11:59:03Z" finished-at="2019-06-25T11:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="feature" duration-ms="32445" started-at="2019-06-25T11:51:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-25T11:51:45Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="feature" duration-ms="29690" started-at="2019-06-25T11:59:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-25T11:59:34Z">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@ at ✽.Then the user is successfully logged into the application(/Users/krishna/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2019-06-25T11:51:45Z" finished-at="2019-06-25T11:51:45Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.crm.runner.LoginTestRunner@617faa95]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2019-06-25T11:59:34Z" finished-at="2019-06-25T11:59:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
